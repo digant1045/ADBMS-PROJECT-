@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Young+Serif&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Young+Serif&display=swap" rel="stylesheet">
+    <title>Deleting Medicine</title>
+    <style>
+        /* Import Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Center the content horizontally and vertically */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background: #1abc9c url('/static/img/image.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+
+        /* Style the content */
+        #content {
+            background-color: lightblue; /* Add a semi-transparent white background to make content more readable */
+            padding: 28px;
+            border-radius: 10px;
+        }
+
+        /* Style the title */
+        h1 {
+            background: rgb(149, 214, 240);
+            color: rgb(7, 7, 7);
+            padding: 10px;
+            margin: 0; /* Remove margin from the top */
+            position: absolute; /* Position at the top */
+            top: 0; /* Place at the top */
+            width: 100%; /* Full width */
+            text-align: center; /* Center text horizontally */
+        }
+
+        .medicine-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            flex: 1;
+            height: 40px;
+            padding: 5px;
+            border: 1px solid lightblue;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        .remove-row {
+            background: #16a085;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            height: 40px;
+            padding: 0 15px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .remove-row:hover {
+            background: #12876f;
+        }
+
+        #add-row {
+            background: #16a085;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            height: 40px;
+            padding: 0 15px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        #add-row:hover {
+            background: #12876f;
+        }
+
+        button[type="submit"] {
+            background: #16a085;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            height: 40px;
+            padding: 0 15px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button[type="submit"]:hover {
+            background: #12876f;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font-family: 'Kalam', cursive;">Delete Medicine From Stock</h1> <!-- Moved the heading to the top -->
+
+    <div id="content">
+        <form action="/delete_medicine" method="POST">
+            <div id="medicine-form">
+                <div class="medicine-row">
+                    <input type="text" name="medicine_name[]" placeholder="Medicine Name" required>
+                    <input type="number" name="quantity[]" placeholder="Quantity" required>
+                    <button type="button" class="remove-row">Remove</button>
+                </div>
+            </div>
+            <button type="button" id="add-row">Delete More</button>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const addRowButton = document.getElementById("add-row");
+            const medicineForm = document.getElementById("medicine-form");
+
+            addRowButton.addEventListener("click", function () {
+                const newRow = document.createElement("div");
+                newRow.classList.add("medicine-row");
+                newRow.innerHTML = `
+                    <input type="text" name="medicine_name[]" placeholder="Medicine Name" required>
+                    <input type="number" name="quantity[]" placeholder="Quantity" required>
+                    <button type="button" class="remove-row">Remove</button>
+                `;
+                medicineForm.appendChild(newRow);
+
+                const removeButtons = document.querySelectorAll(".remove-row");
+                removeButtons.forEach((button) => {
+                    button.addEventListener("click", function () {
+                        newRow.remove();
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>

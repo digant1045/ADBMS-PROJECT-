@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Medicine Order Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('/static/img/WallpaperDog-856936.png'); /* Replace 'background.jpg' with your image path */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .medicine-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            padding: 8px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .remove-row {
+            background-color: #ff6347;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        .remove-row:hover {
+            background-color: #ff3d00;
+        }
+
+        #add-row {
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        #add-row:hover {
+            background-color: #45a049;
+        }
+
+        button[type="submit"] {
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #0077A3;
+        }
+    </style>
+</head>
+<body>
+<form action="/submit" method="POST">
+    <div id="medicine-form">
+        <h2>Medicine Order Form</h2>
+        <div class="medicine-row">
+            <input type="text" name="medicine_name[]" placeholder="Medicine Name" required>
+            <input type="number" name="quantity[]" placeholder="Quantity" required>
+            <input type="number" name="price[]" placeholder="Price" step="0.01" required>
+            <button type="button" class="remove-row">Remove</button>
+        </div>
+    </div>
+    <button type="button" id="add-row">Add Medicine</button>
+    <button type="submit">Submit</button>
+</form>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const addRowButton = document.getElementById("add-row");
+        const medicineForm = document.getElementById("medicine-form");
+
+        addRowButton.addEventListener("click", function () {
+            const newRow = document.createElement("div");
+            newRow.classList.add("medicine-row");
+            newRow.innerHTML = `
+                <input type="text" name="medicine_name[]" placeholder="Medicine Name" required>
+                <input type="number" name="quantity[]" placeholder="Quantity" required>
+                <input type="number" name="price[]" placeholder="Price" step="0.01" required>
+                <button type="button" class="remove-row">Remove</button>
+            `;
+            medicineForm.appendChild(newRow);
+
+            const removeButtons = document.querySelectorAll(".remove-row");
+            removeButtons.forEach((button) => {
+                button.addEventListener("click", function () {
+                    newRow.remove();
+                });
+            });
+        });
+    });
+</script>
+</body>
+</html>

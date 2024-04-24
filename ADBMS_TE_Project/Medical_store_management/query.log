@@ -1,0 +1,439 @@
+2023-10-28 19:59:44,473:werkzeug: * Debugger is active!
+2023-10-28 19:59:44,476:werkzeug: * Debugger PIN: 243-540-740
+2023-10-28 19:59:49,229:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-28 19:59:49,229:werkzeug:[33mPress CTRL+C to quit[0m
+2023-10-28 19:59:49,233:werkzeug: * Restarting with stat
+2023-10-28 19:59:50,016:werkzeug: * Debugger is active!
+2023-10-28 19:59:50,019:werkzeug: * Debugger PIN: 243-540-740
+2023-10-28 20:00:09,788:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-28 20:00:09,789:werkzeug:[33mPress CTRL+C to quit[0m
+2023-10-28 20:00:09,790:werkzeug: * Restarting with stat
+2023-10-28 20:00:10,163:werkzeug: * Debugger is active!
+2023-10-28 20:00:10,165:werkzeug: * Debugger PIN: 243-540-740
+2023-10-28 20:00:47,222:werkzeug:127.0.0.1 - - [28/Oct/2023 20:00:47] "GET / HTTP/1.1" 200 -
+2023-10-28 20:00:47,289:werkzeug:127.0.0.1 - - [28/Oct/2023 20:00:47] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-28 20:00:52,463:werkzeug:127.0.0.1 - - [28/Oct/2023 20:00:52] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+2023-10-28 20:00:52,472:werkzeug:127.0.0.1 - - [28/Oct/2023 20:00:52] "GET /index HTTP/1.1" 200 -
+2023-10-28 20:00:52,497:werkzeug:127.0.0.1 - - [28/Oct/2023 20:00:52] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-28 20:00:52,506:werkzeug:127.0.0.1 - - [28/Oct/2023 20:00:52] "[36mGET /static/img/capsule.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:00:54,866:root:Stock is displayed
+2023-10-28 20:00:54,873:werkzeug:127.0.0.1 - - [28/Oct/2023 20:00:54] "GET /display_stock HTTP/1.1" 200 -
+2023-10-28 20:00:54,900:werkzeug:127.0.0.1 - - [28/Oct/2023 20:00:54] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:00:59,786:werkzeug:127.0.0.1 - - [28/Oct/2023 20:00:59] "GET /medicine_inventory HTTP/1.1" 200 -
+2023-10-28 20:00:59,805:werkzeug:127.0.0.1 - - [28/Oct/2023 20:00:59] "[36mGET /static/img/WallpaperDog-856936.png HTTP/1.1[0m" 304 -
+2023-10-28 20:01:07,388:root:Order has been taken and qty is subtracted from Stock Collection
+2023-10-28 20:01:07,390:werkzeug:127.0.0.1 - - [28/Oct/2023 20:01:07] "POST /submit HTTP/1.1" 200 -
+2023-10-28 20:01:07,417:werkzeug:127.0.0.1 - - [28/Oct/2023 20:01:07] "[36mGET /static/img/medicine_1.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:01:42,231:root:Stock is displayed
+2023-10-28 20:01:42,231:werkzeug:127.0.0.1 - - [28/Oct/2023 20:01:42] "GET /display_stock HTTP/1.1" 200 -
+2023-10-28 20:01:42,257:werkzeug:127.0.0.1 - - [28/Oct/2023 20:01:42] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:01:47,766:werkzeug:127.0.0.1 - - [28/Oct/2023 20:01:47] "GET /add_stock HTTP/1.1" 200 -
+2023-10-28 20:01:47,971:werkzeug:127.0.0.1 - - [28/Oct/2023 20:01:47] "GET /static/img/image.jpg HTTP/1.1" 200 -
+2023-10-28 20:01:57,452:root:Medicine is added to stock
+2023-10-28 20:01:57,452:werkzeug:127.0.0.1 - - [28/Oct/2023 20:01:57] "[32mPOST /add_medicine HTTP/1.1[0m" 302 -
+2023-10-28 20:01:57,456:werkzeug:127.0.0.1 - - [28/Oct/2023 20:01:57] "GET /index HTTP/1.1" 200 -
+2023-10-28 20:01:57,473:werkzeug:127.0.0.1 - - [28/Oct/2023 20:01:57] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-28 20:01:57,480:werkzeug:127.0.0.1 - - [28/Oct/2023 20:01:57] "[36mGET /static/img/capsule.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:02:09,900:werkzeug:127.0.0.1 - - [28/Oct/2023 20:02:09] "GET /delete_stock HTTP/1.1" 200 -
+2023-10-28 20:02:09,911:werkzeug:127.0.0.1 - - [28/Oct/2023 20:02:09] "[36mGET /static/img/image.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:02:14,343:root:Medicine is removed from stock
+2023-10-28 20:02:14,343:werkzeug:127.0.0.1 - - [28/Oct/2023 20:02:14] "[32mPOST /delete_medicine HTTP/1.1[0m" 302 -
+2023-10-28 20:02:14,347:werkzeug:127.0.0.1 - - [28/Oct/2023 20:02:14] "GET /index HTTP/1.1" 200 -
+2023-10-28 20:02:14,360:werkzeug:127.0.0.1 - - [28/Oct/2023 20:02:14] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-28 20:02:14,371:werkzeug:127.0.0.1 - - [28/Oct/2023 20:02:14] "[36mGET /static/img/capsule.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:04:05,758:werkzeug: * Detected change in 'C:\\Users\\hp\\Desktop\\Flask\\logger.py', reloading
+2023-10-28 20:04:06,155:werkzeug: * Restarting with stat
+2023-10-28 20:04:06,611  :  werkzeug  :   * Debugger is active!
+2023-10-28 20:04:06,615  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-28 20:04:13,797  :  werkzeug  :  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-28 20:04:13,798  :  werkzeug  :  [33mPress CTRL+C to quit[0m
+2023-10-28 20:04:13,799  :  werkzeug  :   * Restarting with stat
+2023-10-28 20:04:14,203  :  werkzeug  :   * Debugger is active!
+2023-10-28 20:04:14,205  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-28 20:04:26,361  :  root  :  Stock is displayed
+2023-10-28 20:04:26,366  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:04:26] "GET /display_stock HTTP/1.1" 200 -
+2023-10-28 20:04:26,475  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:04:26] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:05:06,712  :  werkzeug  :   * Detected change in 'C:\\Users\\hp\\Desktop\\Flask\\logger.py', reloading
+2023-10-28 20:05:06,918  :  werkzeug  :   * Restarting with stat
+2023-10-28 20:05:07,431  :  werkzeug  :   * Debugger is active!
+2023-10-28 20:05:07,434  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-28 20:05:09,863  :  werkzeug  :  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-28 20:05:09,865  :  werkzeug  :  [33mPress CTRL+C to quit[0m
+2023-10-28 20:05:09,866  :  werkzeug  :   * Restarting with stat
+2023-10-28 20:05:10,299  :  werkzeug  :   * Debugger is active!
+2023-10-28 20:05:10,302  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-28 20:05:18,583  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:05:18] "GET /display_stock HTTP/1.1" 200 -
+2023-10-28 20:05:18,650  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:05:18] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:05:29,891  :  werkzeug  :   * Detected change in 'C:\\Users\\hp\\Desktop\\Flask\\logger.py', reloading
+2023-10-28 20:05:30,302  :  werkzeug  :   * Restarting with stat
+2023-10-28 20:05:30,777  :  werkzeug  :   * Debugger is active!
+2023-10-28 20:05:30,779  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-28 20:05:35,456  :  werkzeug  :  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-28 20:05:35,456  :  werkzeug  :  [33mPress CTRL+C to quit[0m
+2023-10-28 20:05:35,457  :  werkzeug  :   * Restarting with stat
+2023-10-28 20:05:36,259  :  werkzeug  :   * Debugger is active!
+2023-10-28 20:05:36,262  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-28 20:05:40,610  :  root  :  Stock is displayed
+2023-10-28 20:05:40,615  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:05:40] "GET /display_stock HTTP/1.1" 200 -
+2023-10-28 20:05:40,672  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:05:40] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:05:48,557  :  root  :  Stock is displayed
+2023-10-28 20:05:48,557  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:05:48] "GET /display_stock HTTP/1.1" 200 -
+2023-10-28 20:05:48,575  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:05:48] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:06:13,548  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:06:13] "GET / HTTP/1.1" 200 -
+2023-10-28 20:06:13,561  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:06:13] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-28 20:06:18,665  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:06:18] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+2023-10-28 20:06:18,684  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:06:18] "GET /fail HTTP/1.1" 200 -
+2023-10-28 20:06:18,702  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:06:18] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-28 20:06:24,175  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:06:24] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+2023-10-28 20:06:24,186  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:06:24] "GET /index HTTP/1.1" 200 -
+2023-10-28 20:06:24,217  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:06:24] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-28 20:06:24,226  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:06:24] "[36mGET /static/img/capsule.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:15:52,571  :  werkzeug  :   * Detected change in 'C:\\Users\\hp\\Desktop\\Flask\\main.py', reloading
+2023-10-28 20:15:53,044  :  werkzeug  :   * Restarting with stat
+2023-10-28 20:15:53,711  :  werkzeug  :   * Debugger is active!
+2023-10-28 20:15:53,713  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-28 20:18:09,502  :  werkzeug  :   * Detected change in 'C:\\Users\\hp\\Desktop\\Flask\\main.py', reloading
+2023-10-28 20:18:09,573  :  werkzeug  :   * Restarting with stat
+2023-10-28 20:18:10,325  :  werkzeug  :   * Debugger is active!
+2023-10-28 20:18:10,328  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-28 20:18:11,822  :  werkzeug  :  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-28 20:18:11,822  :  werkzeug  :  [33mPress CTRL+C to quit[0m
+2023-10-28 20:18:11,824  :  werkzeug  :   * Restarting with stat
+2023-10-28 20:18:12,442  :  werkzeug  :   * Debugger is active!
+2023-10-28 20:18:12,445  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-28 20:18:25,452  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:18:25] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:18:29,923  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:18:29] "GET / HTTP/1.1" 200 -
+2023-10-28 20:18:30,003  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:18:30] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-28 20:18:33,457  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:18:33] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+2023-10-28 20:18:33,465  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:18:33] "GET /index HTTP/1.1" 200 -
+2023-10-28 20:18:33,488  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:18:33] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-28 20:18:33,499  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:18:33] "[36mGET /static/img/capsule.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:18:40,887  :  root  :  Stock is displayed
+2023-10-28 20:18:40,891  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:18:40] "GET /display_stock HTTP/1.1" 200 -
+2023-10-28 20:18:40,915  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:18:40] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:18:47,354  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:18:47] "GET /medicine_inventory HTTP/1.1" 200 -
+2023-10-28 20:18:47,372  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:18:47] "[36mGET /static/img/WallpaperDog-856936.png HTTP/1.1[0m" 304 -
+2023-10-28 20:18:53,161  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:18:53] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2023-10-28 20:18:53,190  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:18:53] "GET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-10-28 20:18:53,199  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:18:53] "GET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-10-28 20:18:53,236  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:18:53] "GET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-10-28 20:18:53,244  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:18:53] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-28 20:20:33,536  :  werkzeug  :   * Detected change in 'C:\\Users\\hp\\Desktop\\Flask\\main.py', reloading
+2023-10-28 20:20:34,040  :  werkzeug  :   * Restarting with stat
+2023-10-28 20:20:34,616  :  werkzeug  :   * Debugger is active!
+2023-10-28 20:20:34,619  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-28 20:20:35,605  :  werkzeug  :  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-28 20:20:35,605  :  werkzeug  :  [33mPress CTRL+C to quit[0m
+2023-10-28 20:20:35,607  :  werkzeug  :   * Restarting with stat
+2023-10-28 20:20:36,343  :  werkzeug  :   * Debugger is active!
+2023-10-28 20:20:36,346  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-28 20:20:40,399  :  root  :  Stock is displayed
+2023-10-28 20:20:40,403  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:20:40] "GET /display_stock HTTP/1.1" 200 -
+2023-10-28 20:20:40,474  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:20:40] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:20:49,648  :  root  :  Stock is displayed
+2023-10-28 20:20:49,649  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:20:49] "GET /display_stock HTTP/1.1" 200 -
+2023-10-28 20:20:49,672  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:20:49] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:22:02,356  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:22:02] "GET /medicine_inventory HTTP/1.1" 200 -
+2023-10-28 20:22:02,376  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:22:02] "[36mGET /static/img/WallpaperDog-856936.png HTTP/1.1[0m" 304 -
+2023-10-28 20:22:09,394  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:22:09] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2023-10-28 20:22:09,413  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:22:09] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-28 20:22:09,413  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:22:09] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-28 20:22:09,425  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:22:09] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-28 20:22:38,788  :  werkzeug  :   * Detected change in 'C:\\Users\\hp\\Desktop\\Flask\\main.py', reloading
+2023-10-28 20:22:39,120  :  werkzeug  :   * Restarting with stat
+2023-10-28 20:22:39,608  :  werkzeug  :   * Debugger is active!
+2023-10-28 20:22:39,611  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-28 20:22:42,043  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:22:42] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2023-10-28 20:22:42,113  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:22:42] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-28 20:22:42,115  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:22:42] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-28 20:22:42,124  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:22:42] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-28 20:22:42,134  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:22:42] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-28 20:22:51,371  :  werkzeug  :  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-28 20:22:51,371  :  werkzeug  :  [33mPress CTRL+C to quit[0m
+2023-10-28 20:22:51,373  :  werkzeug  :   * Restarting with stat
+2023-10-28 20:22:51,760  :  werkzeug  :   * Debugger is active!
+2023-10-28 20:22:51,762  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-28 20:22:58,200  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:22:58] "GET / HTTP/1.1" 200 -
+2023-10-28 20:22:58,262  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:22:58] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-28 20:23:02,923  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:23:02] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+2023-10-28 20:23:02,931  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:23:02] "GET /index HTTP/1.1" 200 -
+2023-10-28 20:23:02,955  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:23:02] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-28 20:23:02,965  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:23:02] "[36mGET /static/img/capsule.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:23:04,070  :  root  :  Stock is displayed
+2023-10-28 20:23:04,074  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:23:04] "GET /display_stock HTTP/1.1" 200 -
+2023-10-28 20:23:04,100  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:23:04] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:23:06,893  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:23:06] "GET /medicine_inventory HTTP/1.1" 200 -
+2023-10-28 20:23:06,923  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:23:06] "[36mGET /static/img/WallpaperDog-856936.png HTTP/1.1[0m" 304 -
+2023-10-28 20:23:13,041  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:23:13] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2023-10-28 20:23:13,055  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:23:13] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-28 20:23:13,055  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:23:13] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-28 20:23:13,088  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:23:13] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-28 20:23:38,235  :  werkzeug  :   * Detected change in 'C:\\Users\\hp\\Desktop\\Flask\\main.py', reloading
+2023-10-28 20:23:38,720  :  werkzeug  :   * Restarting with stat
+2023-10-28 20:23:39,315  :  werkzeug  :   * Debugger is active!
+2023-10-28 20:23:39,317  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-28 20:23:45,349  :  werkzeug  :  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-28 20:23:45,349  :  werkzeug  :  [33mPress CTRL+C to quit[0m
+2023-10-28 20:23:45,350  :  werkzeug  :   * Restarting with stat
+2023-10-28 20:23:45,816  :  werkzeug  :   * Debugger is active!
+2023-10-28 20:23:45,818  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-28 20:23:46,644  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:23:46] "GET / HTTP/1.1" 200 -
+2023-10-28 20:23:46,725  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:23:46] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-28 20:23:50,723  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:23:50] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+2023-10-28 20:23:50,731  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:23:50] "GET /index HTTP/1.1" 200 -
+2023-10-28 20:23:50,751  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:23:50] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-28 20:23:50,758  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:23:50] "[36mGET /static/img/capsule.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:23:51,887  :  root  :  Stock is displayed
+2023-10-28 20:23:51,889  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:23:51] "GET /display_stock HTTP/1.1" 200 -
+2023-10-28 20:23:51,917  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:23:51] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:23:54,574  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:23:54] "GET /medicine_inventory HTTP/1.1" 200 -
+2023-10-28 20:23:54,591  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:23:54] "[36mGET /static/img/WallpaperDog-856936.png HTTP/1.1[0m" 304 -
+2023-10-28 20:24:00,269  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:24:00] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2023-10-28 20:24:00,284  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:24:00] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-28 20:24:00,286  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:24:00] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-28 20:24:00,318  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:24:00] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-28 20:24:52,622  :  werkzeug  :   * Detected change in 'C:\\Users\\hp\\Desktop\\Flask\\main.py', reloading
+2023-10-28 20:24:52,974  :  werkzeug  :   * Restarting with stat
+2023-10-28 20:24:53,495  :  werkzeug  :   * Debugger is active!
+2023-10-28 20:24:53,498  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-28 20:24:55,727  :  werkzeug  :  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-28 20:24:55,727  :  werkzeug  :  [33mPress CTRL+C to quit[0m
+2023-10-28 20:24:55,730  :  werkzeug  :   * Restarting with stat
+2023-10-28 20:24:56,398  :  werkzeug  :   * Debugger is active!
+2023-10-28 20:24:56,401  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-28 20:24:57,685  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:24:57] "GET / HTTP/1.1" 200 -
+2023-10-28 20:24:57,728  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:24:57] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-28 20:25:03,087  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:25:03] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+2023-10-28 20:25:03,093  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:25:03] "GET /index HTTP/1.1" 200 -
+2023-10-28 20:25:03,110  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:25:03] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-28 20:25:03,122  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:25:03] "[36mGET /static/img/capsule.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:25:04,632  :  root  :  Stock is displayed
+2023-10-28 20:25:04,634  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:25:04] "GET /display_stock HTTP/1.1" 200 -
+2023-10-28 20:25:04,666  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:25:04] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:25:09,140  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:25:09] "GET /medicine_inventory HTTP/1.1" 200 -
+2023-10-28 20:25:09,159  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:25:09] "[36mGET /static/img/WallpaperDog-856936.png HTTP/1.1[0m" 304 -
+2023-10-28 20:25:12,968  :  root  :  New Medicine is added to next Order
+2023-10-28 20:25:12,971  :  root  :  New Medicine is added to next Order
+2023-10-28 20:25:12,972  :  root  :  Order has been taken and qty is subtracted from Stock Collection
+2023-10-28 20:25:12,976  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:25:12] "POST /submit HTTP/1.1" 200 -
+2023-10-28 20:25:12,996  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:25:12] "[36mGET /static/img/medicine_1.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:25:30,744  :  root  :  Stock is displayed
+2023-10-28 20:25:30,747  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:25:30] "GET /display_stock HTTP/1.1" 200 -
+2023-10-28 20:25:30,773  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:25:30] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:26:14,291  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:26:14] "GET /medicine_inventory HTTP/1.1" 200 -
+2023-10-28 20:26:14,308  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:26:14] "[36mGET /static/img/WallpaperDog-856936.png HTTP/1.1[0m" 304 -
+2023-10-28 20:26:24,793  :  root  :  New Medicine is added to next Order
+2023-10-28 20:26:24,794  :  root  :  Order has been taken and qty is subtracted from Stock Collection
+2023-10-28 20:26:24,794  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:26:24] "POST /submit HTTP/1.1" 200 -
+2023-10-28 20:26:24,820  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:26:24] "[36mGET /static/img/medicine_1.jpg HTTP/1.1[0m" 304 -
+2023-10-28 20:26:52,883  :  root  :  Stock is displayed
+2023-10-28 20:26:52,884  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:26:52] "GET /display_stock HTTP/1.1" 200 -
+2023-10-28 20:26:52,912  :  werkzeug  :  127.0.0.1 - - [28/Oct/2023 20:26:52] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+2023-10-29 09:20:08,345  :  werkzeug  :  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-29 09:20:08,356  :  werkzeug  :  [33mPress CTRL+C to quit[0m
+2023-10-29 09:20:08,358  :  werkzeug  :   * Restarting with stat
+2023-10-29 09:20:08,900  :  werkzeug  :   * Debugger is active!
+2023-10-29 09:20:08,903  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-29 09:20:24,544  :  werkzeug  :  127.0.0.1 - - [29/Oct/2023 09:20:24] "GET / HTTP/1.1" 200 -
+2023-10-29 09:20:24,633  :  werkzeug  :  127.0.0.1 - - [29/Oct/2023 09:20:24] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-29 09:20:24,669  :  werkzeug  :  127.0.0.1 - - [29/Oct/2023 09:20:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-10-29 09:20:28,249  :  werkzeug  :  127.0.0.1 - - [29/Oct/2023 09:20:28] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+2023-10-29 09:20:28,258  :  werkzeug  :  127.0.0.1 - - [29/Oct/2023 09:20:28] "GET /index HTTP/1.1" 200 -
+2023-10-29 09:20:28,291  :  werkzeug  :  127.0.0.1 - - [29/Oct/2023 09:20:28] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-29 09:20:28,305  :  werkzeug  :  127.0.0.1 - - [29/Oct/2023 09:20:28] "[36mGET /static/img/capsule.jpg HTTP/1.1[0m" 304 -
+2023-10-29 09:20:30,143  :  root  :  Stock is displayed
+2023-10-29 09:20:30,158  :  werkzeug  :  127.0.0.1 - - [29/Oct/2023 09:20:30] "GET /display_stock HTTP/1.1" 200 -
+2023-10-29 09:20:30,193  :  werkzeug  :  127.0.0.1 - - [29/Oct/2023 09:20:30] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+2023-10-29 09:21:08,735  :  werkzeug  :   * Detected change in 'C:\\Users\\hp\\Desktop\\Flask\\main.py', reloading
+2023-10-29 09:21:09,143  :  werkzeug  :   * Restarting with stat
+2023-10-29 09:21:09,669  :  werkzeug  :   * Debugger is active!
+2023-10-29 09:21:09,671  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-29 09:21:13,993  :  werkzeug  :  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-29 09:21:13,994  :  werkzeug  :  [33mPress CTRL+C to quit[0m
+2023-10-29 09:21:13,996  :  werkzeug  :   * Restarting with stat
+2023-10-29 09:21:14,785  :  werkzeug  :   * Debugger is active!
+2023-10-29 09:21:14,788  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-29 09:21:26,515  :  root  :  /n/nStock is displayed
+2023-10-29 09:21:26,525  :  werkzeug  :  127.0.0.1 - - [29/Oct/2023 09:21:26] "GET /display_stock HTTP/1.1" 200 -
+2023-10-29 09:21:26,597  :  werkzeug  :  127.0.0.1 - - [29/Oct/2023 09:21:26] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+2023-10-29 09:21:38,577  :  werkzeug  :   * Detected change in 'C:\\Users\\hp\\Desktop\\Flask\\main.py', reloading
+2023-10-29 09:21:39,139  :  werkzeug  :   * Restarting with stat
+2023-10-29 09:21:39,718  :  werkzeug  :   * Debugger is active!
+2023-10-29 09:21:39,721  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-29 09:21:41,695  :  werkzeug  :  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-29 09:21:41,695  :  werkzeug  :  [33mPress CTRL+C to quit[0m
+2023-10-29 09:21:41,698  :  werkzeug  :   * Restarting with stat
+2023-10-29 09:21:42,585  :  werkzeug  :   * Debugger is active!
+2023-10-29 09:21:42,598  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-29 09:24:23,170  :  werkzeug  :  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-29 09:24:23,170  :  werkzeug  :  [33mPress CTRL+C to quit[0m
+2023-10-29 09:24:23,171  :  werkzeug  :   * Restarting with stat
+2023-10-29 09:24:23,589  :  werkzeug  :   * Debugger is active!
+2023-10-29 09:24:23,591  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-29 09:24:36,677  :  werkzeug  :  127.0.0.1 - - [29/Oct/2023 09:24:36] "GET / HTTP/1.1" 200 -
+2023-10-29 09:24:36,754  :  werkzeug  :  127.0.0.1 - - [29/Oct/2023 09:24:36] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-29 09:24:36,790  :  werkzeug  :  127.0.0.1 - - [29/Oct/2023 09:24:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-10-29 09:24:40,334  :  werkzeug  :  127.0.0.1 - - [29/Oct/2023 09:24:40] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+2023-10-29 09:24:40,361  :  werkzeug  :  127.0.0.1 - - [29/Oct/2023 09:24:40] "GET /fail HTTP/1.1" 200 -
+2023-10-29 09:24:40,386  :  werkzeug  :  127.0.0.1 - - [29/Oct/2023 09:24:40] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-29 09:24:44,633  :  werkzeug  :  127.0.0.1 - - [29/Oct/2023 09:24:44] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+2023-10-29 09:24:44,642  :  werkzeug  :  127.0.0.1 - - [29/Oct/2023 09:24:44] "GET /index HTTP/1.1" 200 -
+2023-10-29 09:24:44,678  :  werkzeug  :  127.0.0.1 - - [29/Oct/2023 09:24:44] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-29 09:24:44,688  :  werkzeug  :  127.0.0.1 - - [29/Oct/2023 09:24:44] "[36mGET /static/img/capsule.jpg HTTP/1.1[0m" 304 -
+2023-10-29 09:24:46,192  :  root  :  Stock is displayed
+2023-10-29 09:24:46,203  :  werkzeug  :  127.0.0.1 - - [29/Oct/2023 09:24:46] "GET /display_stock HTTP/1.1" 200 -
+2023-10-29 09:24:46,234  :  werkzeug  :  127.0.0.1 - - [29/Oct/2023 09:24:46] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+2023-10-30 07:34:00,731  :  werkzeug  :  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-30 07:34:00,732  :  werkzeug  :  [33mPress CTRL+C to quit[0m
+2023-10-30 07:34:00,735  :  werkzeug  :   * Restarting with stat
+2023-10-30 07:34:01,589  :  werkzeug  :   * Debugger is active!
+2023-10-30 07:34:01,595  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-30 07:34:16,575  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:34:16] "GET / HTTP/1.1" 200 -
+2023-10-30 07:34:16,648  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:34:16] "GET /static/styles/style.css HTTP/1.1" 200 -
+2023-10-30 07:34:16,684  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:34:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-10-30 07:34:45,222  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:34:45] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+2023-10-30 07:34:45,229  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:34:45] "GET /index HTTP/1.1" 200 -
+2023-10-30 07:34:45,246  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:34:45] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-30 07:34:45,273  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:34:45] "GET /static/img/capsule.jpg HTTP/1.1" 200 -
+2023-10-30 07:34:53,682  :  root  :  Stock is displayed
+2023-10-30 07:34:53,692  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:34:53] "GET /display_stock HTTP/1.1" 200 -
+2023-10-30 07:34:53,721  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:34:53] "GET /static/img/4.jpg HTTP/1.1" 200 -
+2023-10-30 07:35:07,344  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:35:07] "GET /add_stock HTTP/1.1" 200 -
+2023-10-30 07:35:07,465  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:35:07] "GET /static/img/image.jpg HTTP/1.1" 200 -
+2023-10-30 07:35:17,321  :  root  :  Medicine is added to stock
+2023-10-30 07:35:17,321  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:35:17] "[32mPOST /add_medicine HTTP/1.1[0m" 302 -
+2023-10-30 07:35:17,326  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:35:17] "GET /index HTTP/1.1" 200 -
+2023-10-30 07:35:17,351  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:35:17] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-30 07:35:17,359  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:35:17] "[36mGET /static/img/capsule.jpg HTTP/1.1[0m" 304 -
+2023-10-30 07:35:19,103  :  root  :  Stock is displayed
+2023-10-30 07:35:19,105  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:35:19] "GET /display_stock HTTP/1.1" 200 -
+2023-10-30 07:35:19,133  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:35:19] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+2023-10-30 07:35:24,648  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:35:24] "GET /medicine_inventory HTTP/1.1" 200 -
+2023-10-30 07:35:24,681  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:35:24] "GET /static/img/WallpaperDog-856936.png HTTP/1.1" 200 -
+2023-10-30 07:35:49,349  :  root  :  New Medicine is added to next Order
+2023-10-30 07:35:49,350  :  root  :  New Medicine is added to next Order
+2023-10-30 07:35:49,352  :  root  :  New Medicine is added to next Order
+2023-10-30 07:35:49,354  :  root  :  Order has been taken and qty is subtracted from Stock Collection
+2023-10-30 07:35:49,358  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:35:49] "POST /submit HTTP/1.1" 200 -
+2023-10-30 07:35:49,399  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:35:49] "GET /static/img/medicine_1.jpg HTTP/1.1" 200 -
+2023-10-30 07:36:07,551  :  root  :  Stock is displayed
+2023-10-30 07:36:07,551  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:36:07] "GET /display_stock HTTP/1.1" 200 -
+2023-10-30 07:36:07,580  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:36:07] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+2023-10-30 07:39:19,033  :  werkzeug  :   * Detected change in 'C:\\Users\\hp\\Desktop\\Medical_store_management\\main.py', reloading
+2023-10-30 07:39:19,401  :  werkzeug  :   * Restarting with stat
+2023-10-30 07:39:19,974  :  werkzeug  :   * Debugger is active!
+2023-10-30 07:39:19,978  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-30 07:40:23,049  :  werkzeug  :   * Detected change in 'C:\\Users\\hp\\Desktop\\Medical_store_management\\main.py', reloading
+2023-10-30 07:40:23,144  :  werkzeug  :   * Restarting with stat
+2023-10-30 07:40:23,926  :  werkzeug  :   * Debugger is active!
+2023-10-30 07:40:23,929  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-30 07:41:02,096  :  werkzeug  :  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-30 07:41:02,097  :  werkzeug  :  [33mPress CTRL+C to quit[0m
+2023-10-30 07:41:02,099  :  werkzeug  :   * Restarting with stat
+2023-10-30 07:41:03,156  :  werkzeug  :   * Debugger is active!
+2023-10-30 07:41:03,160  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-30 07:41:04,868  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:41:04] "GET /index HTTP/1.1" 200 -
+2023-10-30 07:41:04,947  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:41:04] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-30 07:41:04,956  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:41:04] "[36mGET /static/img/capsule.jpg HTTP/1.1[0m" 304 -
+2023-10-30 07:41:06,182  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:41:06] "GET /index HTTP/1.1" 200 -
+2023-10-30 07:41:06,210  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:41:06] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-30 07:41:06,218  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:41:06] "[36mGET /static/img/capsule.jpg HTTP/1.1[0m" 304 -
+2023-10-30 07:41:22,911  :  werkzeug  :  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-30 07:41:22,913  :  werkzeug  :  [33mPress CTRL+C to quit[0m
+2023-10-30 07:41:22,914  :  werkzeug  :   * Restarting with stat
+2023-10-30 07:41:23,466  :  werkzeug  :   * Debugger is active!
+2023-10-30 07:41:23,470  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-30 07:41:33,228  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:41:33] "GET / HTTP/1.1" 200 -
+2023-10-30 07:41:33,351  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:41:33] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-30 07:41:39,882  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:41:39] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+2023-10-30 07:41:39,890  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:41:39] "GET /index HTTP/1.1" 200 -
+2023-10-30 07:41:39,919  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:41:39] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-30 07:41:39,932  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:41:39] "[36mGET /static/img/capsule.jpg HTTP/1.1[0m" 304 -
+2023-10-30 07:41:42,036  :  root  :  Stock is displayed
+2023-10-30 07:41:42,045  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:41:42] "GET /display_stock HTTP/1.1" 200 -
+2023-10-30 07:41:42,069  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:41:42] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+2023-10-30 07:41:53,742  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:41:53] "GET /add_stock HTTP/1.1" 200 -
+2023-10-30 07:41:53,765  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:41:53] "[36mGET /static/img/image.jpg HTTP/1.1[0m" 304 -
+2023-10-30 07:42:04,592  :  root  :  xyz medicine is added to stock
+2023-10-30 07:42:04,593  :  root  :  zzz medicine is added to stock
+2023-10-30 07:42:04,593  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:42:04] "[32mPOST /add_medicine HTTP/1.1[0m" 302 -
+2023-10-30 07:42:04,597  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:42:04] "GET /index HTTP/1.1" 200 -
+2023-10-30 07:42:04,621  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:42:04] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-30 07:42:04,629  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:42:04] "[36mGET /static/img/capsule.jpg HTTP/1.1[0m" 304 -
+2023-10-30 07:42:16,606  :  root  :  Stock is displayed
+2023-10-30 07:42:16,606  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:42:16] "GET /display_stock HTTP/1.1" 200 -
+2023-10-30 07:42:16,639  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:42:16] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+2023-10-30 07:42:20,596  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:42:20] "GET /medicine_inventory HTTP/1.1" 200 -
+2023-10-30 07:42:20,628  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:42:20] "[36mGET /static/img/WallpaperDog-856936.png HTTP/1.1[0m" 304 -
+2023-10-30 07:42:30,516  :  root  :  xyz Medicine is added to next Order
+2023-10-30 07:42:30,516  :  root  :  Order has been taken and qty is subtracted from Stock Collection
+2023-10-30 07:42:30,519  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:42:30] "POST /submit HTTP/1.1" 200 -
+2023-10-30 07:42:30,550  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:42:30] "[36mGET /static/img/medicine_1.jpg HTTP/1.1[0m" 304 -
+2023-10-30 07:45:46,150  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:45:46] "GET /index HTTP/1.1" 200 -
+2023-10-30 07:45:46,182  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:45:46] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-30 07:45:46,194  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:45:46] "[36mGET /static/img/capsule.jpg HTTP/1.1[0m" 304 -
+2023-10-30 07:45:47,437  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:45:47] "GET /index HTTP/1.1" 200 -
+2023-10-30 07:45:47,464  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:45:47] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-30 07:45:47,472  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:45:47] "[36mGET /static/img/capsule.jpg HTTP/1.1[0m" 304 -
+2023-10-30 07:47:22,159  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:47:22] "GET /index HTTP/1.1" 200 -
+2023-10-30 07:47:22,178  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:47:22] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-30 07:47:22,184  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:47:22] "[36mGET /static/img/capsule.jpg HTTP/1.1[0m" 304 -
+2023-10-30 07:47:38,629  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:47:38] "GET / HTTP/1.1" 200 -
+2023-10-30 07:47:38,642  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:47:38] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-30 07:47:42,351  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:47:42] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+2023-10-30 07:47:42,358  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:47:42] "GET /index HTTP/1.1" 200 -
+2023-10-30 07:47:42,390  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:47:42] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-30 07:47:42,400  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:47:42] "[36mGET /static/img/capsule.jpg HTTP/1.1[0m" 304 -
+2023-10-30 07:47:44,472  :  root  :  Stock is displayed
+2023-10-30 07:47:44,473  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:47:44] "GET /display_stock HTTP/1.1" 200 -
+2023-10-30 07:47:44,508  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:47:44] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+2023-10-30 07:47:58,296  :  root  :  Stock is displayed
+2023-10-30 07:47:58,297  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:47:58] "GET /display_stock HTTP/1.1" 200 -
+2023-10-30 07:47:58,332  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:47:58] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+2023-10-30 07:48:00,754  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:48:00] "GET /medicine_inventory HTTP/1.1" 200 -
+2023-10-30 07:48:00,779  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:48:00] "[36mGET /static/img/WallpaperDog-856936.png HTTP/1.1[0m" 304 -
+2023-10-30 07:48:08,529  :  root  :  zzz Medicine is added to next Order
+2023-10-30 07:48:08,531  :  root  :  Order has been taken and qty is subtracted from Stock Collection
+2023-10-30 07:48:08,532  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:48:08] "POST /submit HTTP/1.1" 200 -
+2023-10-30 07:48:08,555  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:48:08] "[36mGET /static/img/medicine_1.jpg HTTP/1.1[0m" 304 -
+2023-10-30 07:48:48,151  :  werkzeug  :  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-30 07:48:48,151  :  werkzeug  :  [33mPress CTRL+C to quit[0m
+2023-10-30 07:48:48,155  :  werkzeug  :   * Restarting with stat
+2023-10-30 07:48:49,543  :  werkzeug  :   * Debugger is active!
+2023-10-30 07:48:49,552  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-30 07:48:58,896  :  werkzeug  :  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-30 07:48:58,896  :  werkzeug  :  [33mPress CTRL+C to quit[0m
+2023-10-30 07:48:58,899  :  werkzeug  :   * Restarting with stat
+2023-10-30 07:49:00,149  :  werkzeug  :   * Debugger is active!
+2023-10-30 07:49:00,153  :  werkzeug  :   * Debugger PIN: 243-540-740
+2023-10-30 07:49:24,684  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:49:24] "GET / HTTP/1.1" 200 -
+2023-10-30 07:49:24,784  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:49:24] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-30 07:49:24,821  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:49:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-10-30 07:49:28,850  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:49:28] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+2023-10-30 07:49:28,861  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:49:28] "GET /fail HTTP/1.1" 200 -
+2023-10-30 07:49:28,893  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:49:28] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-30 07:49:32,268  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:49:32] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+2023-10-30 07:49:32,279  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:49:32] "GET /index HTTP/1.1" 200 -
+2023-10-30 07:49:32,315  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:49:32] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2023-10-30 07:49:32,329  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:49:32] "[36mGET /static/img/capsule.jpg HTTP/1.1[0m" 304 -
+2023-10-30 07:49:34,653  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:49:34] "GET / HTTP/1.1" 200 -
+2023-10-30 07:49:34,670  :  werkzeug  :  127.0.0.1 - - [30/Oct/2023 07:49:34] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -

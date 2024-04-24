@@ -1,0 +1,23 @@
+[2023-10-29 09:17:42,093] 224 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[2023-10-29 09:17:42,093] 224 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2023-10-29 09:17:42,096] 224 werkzeug - INFO -  * Restarting with stat
+[2023-10-29 09:17:42,563] 224 werkzeug - WARNING -  * Debugger is active!
+[2023-10-29 09:17:42,567] 224 werkzeug - INFO -  * Debugger PIN: 243-540-740
+[2023-10-29 09:18:07,569] 224 werkzeug - INFO - 127.0.0.1 - - [29/Oct/2023 09:18:07] "GET / HTTP/1.1" 200 -
+[2023-10-29 09:18:07,707] 224 werkzeug - INFO - 127.0.0.1 - - [29/Oct/2023 09:18:07] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+[2023-10-29 09:18:12,411] 224 werkzeug - INFO - 127.0.0.1 - - [29/Oct/2023 09:18:12] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+[2023-10-29 09:18:12,420] 224 werkzeug - INFO - 127.0.0.1 - - [29/Oct/2023 09:18:12] "GET /index HTTP/1.1" 200 -
+[2023-10-29 09:18:12,448] 224 werkzeug - INFO - 127.0.0.1 - - [29/Oct/2023 09:18:12] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+[2023-10-29 09:18:12,457] 224 werkzeug - INFO - 127.0.0.1 - - [29/Oct/2023 09:18:12] "[36mGET /static/img/capsule.jpg HTTP/1.1[0m" 304 -
+[2023-10-29 09:18:15,645] 171 root - INFO - Stock is displayed
+[2023-10-29 09:18:15,654] 224 werkzeug - INFO - 127.0.0.1 - - [29/Oct/2023 09:18:15] "GET /display_stock HTTP/1.1" 200 -
+[2023-10-29 09:18:15,683] 224 werkzeug - INFO - 127.0.0.1 - - [29/Oct/2023 09:18:15] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+[2023-10-29 09:18:30,326] 171 root - INFO - Stock is displayed
+[2023-10-29 09:18:30,327] 224 werkzeug - INFO - 127.0.0.1 - - [29/Oct/2023 09:18:30] "GET /display_stock HTTP/1.1" 200 -
+[2023-10-29 09:18:30,351] 224 werkzeug - INFO - 127.0.0.1 - - [29/Oct/2023 09:18:30] "[36mGET /static/img/4.jpg HTTP/1.1[0m" 304 -
+[2023-10-29 09:18:33,617] 224 werkzeug - INFO - 127.0.0.1 - - [29/Oct/2023 09:18:33] "GET /medicine_inventory HTTP/1.1" 200 -
+[2023-10-29 09:18:33,640] 224 werkzeug - INFO - 127.0.0.1 - - [29/Oct/2023 09:18:33] "[36mGET /static/img/WallpaperDog-856936.png HTTP/1.1[0m" 304 -
+[2023-10-29 09:18:37,060] 114 root - INFO - Order has been taken and qty is subtracted from Stock Collection
+[2023-10-29 09:18:37,067] 224 werkzeug - INFO - 127.0.0.1 - - [29/Oct/2023 09:18:37] "POST /submit HTTP/1.1" 200 -
+[2023-10-29 09:18:37,100] 224 werkzeug - INFO - 127.0.0.1 - - [29/Oct/2023 09:18:37] "[36mGET /static/img/medicine_1.jpg HTTP/1.1[0m" 304 -
